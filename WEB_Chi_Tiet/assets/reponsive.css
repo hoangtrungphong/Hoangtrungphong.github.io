@@ -1,0 +1,863 @@
+/* PC */
+@media (min-width: 1025px) {
+   
+}
+/* TABLET */
+@media (min-width:780px) and (max-width: 1024px){  
+            /* MENU ĐEN & ĐỎ*/
+    .header-menu_item a{ 
+        font-size: 9px;  
+    } 
+    .header-info{
+        /* display: none; */
+    }
+    
+    .header-search .input-search { 
+        width: 70%; 
+    }
+    
+    .header-search .search-options {
+      display: none;
+    } 
+    .logo .logo-img{
+        height: 100px;
+        width: 100px;
+    }
+    .info-contact{
+        font-size: 12px; 
+    }
+    .info__notify::before { 
+        right: 40px;
+        top: -27px; 
+    }
+   
+    .social-icon .fab {
+        font-size: 14px; 
+        padding: 0 8px; 
+    }
+    .info-post_icon, 
+    .info-open_icon,
+    .info-question_icon { 
+    font-size: 16px; 
+    }
+    .info-post_icon p, 
+    .info-open_icon p {
+        font-size: 12px; 
+    }
+  
+    .menu_list{
+        justify-content: center;
+    }
+    .menu_item-link{
+        font-size: 10px;
+        padding: 0 12px;
+        text-transform: uppercase;
+    }
+    .sub_menu{
+        width: 200px;  
+        text-decoration: none;
+        padding-top: 8px;
+    }
+    .sub_menu-link{ 
+        font-size: 1.2rem;
+        padding: 6px 12px; 
+    }
+
+    /* PHẦN ĐĂNG KÍ ĐĂNG NHẬP */
+    .info__notify-register,
+    .info__notify-register-rpsMobile { 
+        height: 28px;
+        margin: 4px 4px; 
+    }
+    .info__notify-login,
+    .info__notify-login--rpsMobile { 
+        height: 28px;
+        margin: 4px 4px; 
+    }
+    .info__notify-text { 
+        height: 20px;
+        margin: 4px 4px; 
+    }
+        /* PHẦN THÂN */
+    .body{
+        margin-top: 147px; 
+    }
+    #body{
+        margin: 0 8px;
+    }
+    /*Phần menu_breadcrumbs PHẦN LIKE SHARE*/
+
+    .menu_breadcrumbs-item{
+        padding:  6px 0px;
+    }
+    .menu_breadcrumbs-item span{
+        font-size: 1.4rem; 
+        margin-right: 4px;
+        padding: 8px 0;
+        line-height: 20px;
+    }
+    .menu_breadcrumbs-icon{
+        font-size: 1.1rem;
+        margin-left: 4px;
+    }
+
+    /* Phần module_title */
+    .letter_title span{
+        font-size: 1.6rem;
+
+    }
+    .p-old{
+        font-size: 1.1rem;
+     line-height: 1.2rem;
+
+    }
+    .btn-share{
+        font-size: 12px;
+    }
+    .share-1{
+        margin-right:8px;
+    }
+    .share-2{
+        margin-right: 8px;
+    }
+
+   /* Phần Chứa ảnh xe (GRID COLUMN 4)*/
+    .grid_column-4{
+        width: 36%;   
+        padding: 0 6px; 
+    }
+     
+    .grid_column-8{
+        width: 64%; 
+        padding: 0 6px;
+    
+    }
+    .detail{ 
+        height: 250px;
+        overflow: hidden;
+    }
+    .img_moto{   
+        width: calc(100% + 20px);
+    }
+    .view_img .other_info{ 
+        top: 230px; 
+    }
+    .tooltips{  
+        font-size: 1.2rem;
+        padding: 3px 6px ; 
+    }
+    .count_views{  
+        padding: 4px 10px; 
+        font-size: 1.4rem;
+        
+    }
+    ul#thumbnails{
+        height: 70px!important;
+        margin-top: 6px;
+    }
+    .slippery_slider{
+        /* padding: 0 4px; */
+    }
+    .slippery_slider button{ 
+        /* margin: auto 8px; */
+        font-size: 1.4rem;  
+    }
+      .slick-active + .slick-active{
+        margin-left: 4px;
+    }
+    .slick-track .loaded img{
+        width: 70px;
+        height: 55px !important;  
+   
+    }
+    .slippery_slider button{
+        height: 100%; 
+     }
+    .contains_photos{
+        width: 90%;
+     }
+     .title-Spec{ 
+        font-size: 1rem; 
+    }  
+      /* Phần Thông tin mô tả chi tiết xe(GRID COLUMN 8) */
+    .price{
+        font-size: 18px; 
+    }
+    .report{
+        font-size: 10px;
+        padding: 0px 4px; 
+
+    }
+    .follow{
+        font-size: 10px;
+        padding: 2px 4px; 
+    }
+    .parameter .share td{
+        padding: 8px 10px;
+        font-size: 12px; 
+        
+    }
+
+    /* Phần chi tiết liên hệ */
+    .Contact_Details{
+        padding: 4px 12px; 
+        font-size: 12px;
+    }
+    .note_title{ 
+        padding: 5px 0 0 0; 
+        font-size: 1.2rem; 
+    }
+
+    /* Thông tin mua xe */
+    .buy_safe{ 
+    }
+    .buy_safe.title{ 
+        padding-bottom: 4px; 
+        font-size: 12px; 
+    }
+     
+    .buy_safe-list li{
+        font-size: 12px; 
+        line-height: 1.4rem;
+    }  
+    /* Mô tả xe */
+    .product_info ul.tabs-list > li >a{
+        font-size: 1.1rem; 
+    }
+    .product_info .tab_contents{
+        font-size: 1.3rem;
+        
+    }
+    .product_info .tab_contents .show{ 
+        padding: 16px 12px; 
+    }
+   
+    /* Phần có thể bạn sẽ thích */
+    .example-items__second {
+        width: calc(100% / 5.4)
+    }
+
+    .example-items__second:last-child {
+        display: none;
+    }
+    .example-discription {
+        margin: 8px 8px;
+        font-size: 11px;
+    }
+    .example-img {
+        width: 100%;
+        height: 100px;  
+    }
+    
+    /* Phần FOOTER */
+    .footer-container {
+        margin: 0 24px;
+    }
+
+    .footer-content {
+        display: none;
+    }
+
+    .footer-copyright__text {
+        margin: 0 24px;
+    }
+}
+
+/* MOBI LE */
+@media (min-width:540px) and (max-width: 779px){
+    #header .header-content {
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .logo {
+        width: 25%;
+    }
+
+    .logo .logo-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .header-item {
+        width: 65%;  
+    }
+
+    .header-menu_item a {
+        font-size: 9px;
+        padding: 7px;
+        width: 100%;
+        line-height: 40px; 
+    }
+    .header-search .search-options {
+        display: none;
+    }
+    .header-info {
+        display: none;
+    }
+    .header-search .input-search {
+        width: 70%;
+    }
+    .social-icon .fab {
+        display: none;
+    }
+    .header-info__rpsMobile {
+        display: flex !important;
+        justify-content: flex-end;
+    }  
+
+    .info-contact {
+        font-size: 12px;
+        margin-left: -16px;
+        line-height: 30px;
+    }
+    .info-login::before { 
+        top: 10px;
+        right: -5px;
+    }
+    .info__notify{
+        right: -6%;
+        left: 11%;
+    }
+    .info__notify::before{
+        top: -20px;
+        right: 40px;
+    } 
+
+    .header-info_second {
+        margin-right: -30px;
+    }
+
+    .info-question_icon i {
+        display: none;
+    }
+
+    .menu-text__rpsMobile,
+    .menu-icon__rpsMobile{
+        display: block !important;
+    }
+    .menu_list{
+        display: none; 
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+    } 
+    .menu_item a{
+        padding-left: 24px; 
+    }
+    .sub_menu{
+        top: 0%;
+        right: 0%;
+        width: 200px;
+    }
+      /* Form Đăng ký/Đăng nhập */
+      .auth__form {
+        width: 100%;
+    }
+
+    .auth__form-app-link i {
+        font-size: 2.2rem;
+    }
+
+    .auth__form-app-name {
+        display: none;
+    }
+/* Phần Thân */
+    .body{
+        margin-top: 176px;
+    
+    }
+    #body {
+        margin: 0 12px; 
+    }
+    .menu_breadcrumbs-item{
+        padding:  8px 0px;
+    }
+    .menu_breadcrumbs-item span{
+        font-size: 1.2rem; 
+        margin-right: 4px;
+        padding: 4px 0;
+        line-height: 16px;
+    }
+    .menu_breadcrumbs-icon{
+        font-size: 1rem;
+        margin-left: 4px;
+    }
+    .module_title{ 
+        margin-bottom: 20px;
+    }
+    .letter_title span{
+        font-size: 1.6rem;
+        color: var(--primary-color);
+        margin-right: 8px;   
+        font-weight: 600;  
+        line-height: 2rem;
+        border-bottom: 2px solid var(--blue-color);
+    }
+    .p-old{
+        display: none;
+    }
+    .social{
+        z-index: 2;
+    }
+    .share-1{
+        margin-right:4px;
+    }
+    .share-2{
+        margin-right: 4px;
+    }
+    .btn-share{ 
+        border-radius: 3px; 
+        border: 0; 
+        padding:4px 6px; 
+        margin-top:30px;
+        font-size: 1.3rem;
+    }
+    .grid__row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid_column-4{
+        width: 100%;
+    }
+    .lock {
+        display: block;
+    }
+    .slick-track .loaded img{
+        width: 97px;
+        height: 71px !important;  
+   
+    }
+    .view_img .other_info{ 
+        top: 300px; 
+    }
+    .tooltips{  
+        font-size: 1.8rem;
+        padding: 6px 0px ; 
+        opacity: 0.9;
+    }
+    .count_views{  
+        padding: 6px 10px; 
+        border-radius: 10px;
+        font-size: 1.6rem;
+        
+    }
+    .count_views:hover i{
+        color:  #3cece4;
+    }
+    .detail{
+        margin-bottom: 4px;
+    }
+    ul#thumbnails{
+        height: 70px!important;
+    }
+    .slippery_slider{
+        /* padding: 0 4px; */
+    }
+    .slippery_slider button{  
+        font-size: 1.6rem;  
+    }
+      .slick-active + .slick-active{
+        margin-left: 4px;
+    }
+    
+    .slippery_slider button{
+        height: 100%; 
+     }
+    .contains_photos{
+        width: 90%;
+     }
+     
+
+     .grid_column-8{
+         width: 100%;
+     }
+     .parameter{
+         margin-top: 20px;
+     }
+     .price{
+         font-size: 18px;
+     }
+     .parameter .share td {
+        padding: 8px 14px;
+        font-size: 13px; 
+     }
+     .report:hover{
+         background-color: rgb(243, 227, 0);
+         color: var(--primary-color);
+     }
+     /* Mô tả xe */
+     .product_info ul.tabs-list > li >a{
+        font-size: 1.2rem; 
+    }
+    .product_info .tab_contents{
+        font-size: 1.4em;
+        
+    }
+    .product_info .tab_contents .show{ 
+        padding: 8px 4px; 
+    }
+    .tabs-list{
+        line-height: 24px;
+    }
+    .tabs-iteam{
+        width: 18%;
+    }
+    .product_info .tab_contents{
+        font-size: 1.3rem;
+    }
+
+    .example-text {
+        font-size: 14px; 
+    }
+
+     .example-container__second{
+         width: 100%; 
+         flex-wrap: wrap;
+     }
+     .example-items__second{
+         margin-bottom: 24px;
+         width: 31%;
+     }
+     .example-items__second:hover {
+        transform: scale(1.07); 
+        transition: 0.8s; 
+     }
+
+      /* Phần Footer */
+     .footer-container {
+        margin: 0 24px;
+    } 
+    .footer-content {
+        display: none;
+    }
+    .footer-payment{
+        margin-left: 8px;
+    }
+    .footer-container__third .footer-container__img {
+        width: 75%;
+        height: 40px;
+    }
+    .footer-copyright__text {
+        margin: 0 24px;
+    }
+}
+
+@media (max-width:539px) {
+    .logo {
+        width: 15%;
+    }
+
+    .logo .logo-img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .header-item {
+        width: 65%;  
+    }
+    .header-menu_item a {
+        font-size: 8px;
+        padding: 4px;
+        width: 100%;
+        line-height: 30px; 
+    }  
+    .header-info__rpsMobile {
+        display: flex !important;
+        justify-content: flex-end;
+    } 
+    .social-icon .fab {
+        display: none;
+    }
+    .info-contact {
+        font-size: 11px;
+        margin-left: -16px;
+        line-height: 30px;
+    }
+    .info-login::before { 
+        top: 10px;
+        right: -5px;
+    }
+    .info__notify::before { 
+        right: 41px;
+        top: -22px; 
+    }
+    .info__notify{
+        right: -8%;
+        left: 11%;
+    }  
+    .info-question_icon i {
+        display: none;
+    }
+    .header-search .input-search {
+        width: 80%;
+        height: 40px;
+    }
+    .menu-search_icon{
+        height: 40px; 
+    }
+    .menu_list{
+        display: none; 
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header-search .search-options {
+        display: none;
+    }
+    .header-info {
+        display: none;
+    }
+    .menu-text__rpsMobile,
+    .menu-icon__rpsMobile{
+        display: block !important;
+    }
+     /* Form Đăng ký/Đăng nhập */
+     .auth__form {
+        width: 100%;
+    }
+
+    .auth__form-app-link i {
+        font-size: 2.2rem;
+    }
+
+    .auth__form-app-name {
+        display: none;
+    }
+ 
+    .sub_menu{
+        top: 0%;
+        right: 0%;
+        width: 150px;
+    }
+     
+    .menu-text, .menu-icon i{
+        line-height: 36px;
+    }
+    .menu_item-link{
+        font-size: 11px;
+    }
+    .menu_item-link{
+        font-size: 1.4rem;
+    } 
+    #body{
+        margin: 0 8px;
+    }
+
+    /*Phần menu_breadcrumbs PHẦN LIKE SHARE*/ 
+    .menu_breadcrumbs-item span{
+      display: none;
+    }
+
+     /* Phần module_title*/  
+    .letter_title span{
+        font-size: 1.2rem;
+        color: var(--primary-color);
+        margin-right: 2px;   
+        font-weight: 600;  
+        line-height: 1.8rem;
+        border-bottom: none;
+    }
+    .p-old{
+        display: none;
+    }
+    .social{
+        z-index: 2;
+    }
+    .share-1{
+        margin-right:4px;
+    }
+    .share-2{
+        margin-right: 4px;
+    }
+    .btn-share{ 
+        border-radius: 3px; 
+        border: 0; 
+        padding:3px 4px; 
+        margin-top:20px;
+        font-size: 1.2rem;
+    }
+    /* phần chứa ảnh xe */
+    .grid_column-4{
+        width: 100%;
+    }
+    .view_img .other_info{ 
+        top: 210px; 
+    }
+    .tooltips{  
+        font-size: 1.3rem;
+        padding: 4px 0px ; 
+        opacity: 0.9;
+    }
+    .count_views{  
+        padding: 4px 6px; 
+        border-radius: 5px;
+        font-size: 1.2rem;
+        
+    } 
+    .detail{
+         height: 230px;
+    }
+    .img_moto{
+        width: 100%;
+        height: 100%; 
+    }
+    .lock {
+        display: block;
+    }  
+    ul#thumbnails{
+        height: 70px !important;
+
+    }
+   
+    .slippery_slider button{  
+        font-size: 1.4rem;  
+    }
+    
+    .slick-track .loaded img{
+        width: 72px;
+        height: 60px !important;  
+   
+    }
+    .slippery_slider button{
+        height: 100%; 
+     }
+    .contains_photos{
+        width: 90%;
+     }
+     
+    /* PHÂN CHỨA TABLE DỮ LIỆU  VÀ THÔNG TIN LIÊN HỆ MÔ TẢ */
+     .grid_column-8{
+         width: 100%;
+     }
+     .parameter{
+         margin-top: 20px;
+     }
+     .price{
+         font-size: 16px;
+     }
+     .report{
+        font-size: 1.2rem;
+     }
+     .follow{
+        font-size: 1.2rem;
+
+     }
+     .parameter .share td {
+        padding: 4px 8px;
+        font-size: 12px; 
+     }
+     .report:hover{
+         background-color: rgb(243, 227, 0);
+         color: var(--primary-color);
+     }
+     /* Chi Tiết liên hệ */
+     .action td{
+        display: flex;
+     }
+     .buy_safe-list li{
+        font-size: 11px; 
+        line-height: 1.4rem;
+    } 
+     /* Mô tả xe */
+     .product_info ul.tabs-list > li >a{
+        font-size: 1.1rem; 
+    }
+    .product_info .tab_contents{
+        font-size: 1.2em;
+        
+    }
+    .product_info .tab_contents .show{ 
+        padding: 8px 4px; 
+    }
+    .tabs-list{
+        line-height: 24px;
+    }
+    .tabs-iteam{
+        width: 30%;
+    }
+    .product_info .tab_contents{
+        font-size: 1.3rem;
+    }
+
+
+    .example-text {
+        font-size: 13px; 
+    }
+
+     .example-container__second{
+         width: 100%; 
+         flex-wrap: wrap;
+     }
+     .example-items__second{
+         margin-bottom: 16px;
+         width: 48%;
+     }
+     .example-items__second:hover {
+        transform: scale(1.07); 
+        transition: 0.8s; 
+     }
+
+      /* Phần Footer */
+    .footer-container {
+        margin: 0 24px;
+    }
+
+    .footer-content,
+    .footer-payment {
+        display: none;
+    }
+
+    .footer-copyright__text {
+        margin: 0 24px;
+    }
+}
+
+@media (max-width:400px){
+    .header-menu_item a {
+        font-size: 8px;
+        padding: 3px;
+        width: 100%;
+        line-height: 24px; 
+    } 
+    .logo{
+        position: relative;
+        left: -20px;
+    } 
+    .header-item{
+        width: 75%;
+    }
+    .header-search .input-search {
+        width: 80%;
+        height: 30px;
+    }
+    .menu-search_icon{
+        height: 30px; 
+    }
+    .menu-search_icon i{
+        line-height: 30px;
+    }
+    .loader_banner{
+        padding-top:15%; 
+    }
+    .body{
+        margin-top: 130px; 
+    }
+    .module_title{
+        margin-top: 10px;
+    }
+    .menu_breadcrumbs-list{
+        display: none;  
+    }
+    .parameter .share td{
+        padding: 4px 4px;
+        font-size: 12px; 
+        
+    }
+    .tabs-iteam{
+        width: 40%;
+    }
+    .title-Spec{ 
+        font-size: 8px; 
+    }  
+}
+  
